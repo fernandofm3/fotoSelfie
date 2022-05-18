@@ -1,0 +1,1 @@
+http://www.phpblog.com.br/tirar-foto-utilizando-webcam-e-php/

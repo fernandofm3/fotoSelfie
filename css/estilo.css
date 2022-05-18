@@ -1,0 +1,60 @@
+/***************************************************************************/
+
+html, body {
+    background-color: #333;
+}
+
+.img_form{
+    border-radius: 7px;
+    margin: auto;
+    width: 180px;
+     margin-top: 15px;
+}
+
+.img_webcam {
+    border: 5px solid #3c6382;
+	width: 362px;
+	border-radius: 4px;
+}
+
+.img_webcam_captura {
+    border: 5px solid #27ae60;
+	width: 362px;
+	border-radius: 4px;
+}
+
+.img_capturada {
+    margin-top: 73px;
+	
+}
+
+.contato {
+    margin-top: 20px; 
+    
+}
+
+.contato p{
+    font-size: 12px; 
+    
+}
+
+.contato h4{
+    font-size: 14px; 
+    
+}
+
+.rodape h3 {
+    font-size: 9px;
+    text-align: left;
+}
+
+.rodape {
+    margin-top: -10px;	
+}
+
+h2, h3, h4, p {
+    color: white;
+}
+
+
+
