@@ -1,60 +1,69 @@
 /***************************************************************************/
 
-html, body {
-    background-color: #333;
+body {
+    background-color: rgb(255, 255, 255);
 }
 
-.img_form{
+h1, h2, h3, h4, p {
+    color: #777;
+}
+
+header {
+    margin-top: 20px;
+}
+
+main h2 {
+    margin-top: 15px;
+}
+
+main .row {
+    margin-top: 20px;
+}
+
+#video {
+    border: 5px solid #0d6efd;
     border-radius: 7px;
-    margin: auto;
-    width: 180px;
-     margin-top: 15px;
 }
 
-.img_webcam {
-    border: 5px solid #3c6382;
-	width: 362px;
-	border-radius: 4px;
+#canvas {
+    border: 5px solid #0d6efd;
+    border-radius: 7px;
+    display: none;
 }
 
-.img_webcam_captura {
-    border: 5px solid #27ae60;
-	width: 362px;
-	border-radius: 4px;
+main .botoes {
+    margin-top: 20px;
 }
 
-.img_capturada {
-    margin-top: 73px;
-	
-}
+#linkDownload {
+    margin-left: 5px;
+    display: none;
+} 
 
-.contato {
+footer {
     margin-top: 20px; 
     
 }
 
-.contato p{
-    font-size: 12px; 
+footer .contato h4{
+    font-size: 18px; 
     
 }
 
-.contato h4{
+footer .contato p{
     font-size: 14px; 
     
 }
 
-.rodape h3 {
-    font-size: 9px;
-    text-align: left;
+footer>.copyright p  {
+    font-size: 12px;    
 }
 
-.rodape {
-    margin-top: -10px;	
+footer .copyright {
+    margin-top: 10px;	
 }
 
-h2, h3, h4, p {
-    color: white;
-}
+
 
 
 

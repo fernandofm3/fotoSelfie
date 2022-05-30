@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--link rel="icon" href=""-->
+		<title>Foto Selfie</title>
+
+		<!--Faviicon -->
+		<link rel="icon" type="image/x-icon" href="img/cam.ico">
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+		<!-- Bootstrap -->
+
+		<!--CSS Ocorrências--> 
+		<link href="css/estilo.css" rel="stylesheet">
+		<!--CSS Ocorrências-->
+
+		<!--IE Bug-->           
+		<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<!--IE Bug--> 
+	</head>
+
+	<body>
+		<header class="container">			
+			<h1>
+				<i class="bi bi-camera2"></i> Foto Selfie
+			</h1>
+		</header>
+
+		<main class="container">			
+			<h2>Tire sua Selfie e faça o Download!</h2>
+
+			<div class="row">
+				<div class="col-lg-6">													
+					<video id="video"></video>
+				</div>
+
+				<div class="col-lg-6">
+					<canvas id="canvas"></canvas>					
+				</div>			
+			</div>
+
+			<div class="botoes">
+				<button id="capture" class="btn btn-lg btn-primary">
+					<i class="bi bi-webcam-fill"></i>&nbsp; Capturar Imagem
+				</button>				
+				<a id="linkDownload" download="" class="btn btn-lg btn-success">
+					<i class="bi bi-cloud-arrow-down-fill"></i>&nbsp; Download
+				</a>
+			</div>			
+		</main>
+
+		<footer class="container">
+			<div class="contato">
+				<h4><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contato:</h4>
+				<p>
+				Departamento: Tecnologia da Informação <br>
+				E-mail: fernandofm3@gmail.com <br>                            
+				</p>
+			</div>
+
+			<div class="copyright">
+				<p>&copy; progFer Soluções</p>
+			</div>
+		</footer>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<script src="js/webcam.js"></script>
+	</body>
+</html>
+          
